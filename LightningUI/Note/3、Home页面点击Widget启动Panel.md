@@ -6,8 +6,6 @@
 
 ### ![](/assets/Home页面点击Widget启动Panel.png)
 
----
-
 ### 二、实例说明
 
 * 1、按照在《Home中添加一个新的Widget》中步骤①添加两个文件至项目中。
