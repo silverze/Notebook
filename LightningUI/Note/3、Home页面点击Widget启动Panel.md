@@ -4,11 +4,9 @@
 
 ### 一、启动流程分析
 
-![](/assets/Home页面点击Widget启动Panel.png)
+![](/LightningUI/Picture/Home页面点击Widget启动Panel.png)
 
 ### 二、实例说明
-
-
 
 
 
