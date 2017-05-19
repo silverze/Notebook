@@ -1,7 +1,5 @@
 # Summary
 
 * [README](README.md)
-* LightningUI
-
-
+* [LightningUI](lightningui.md)
 
