@@ -4,7 +4,7 @@
 
 ### 一、启动流程分析
 
-
+![](/assets/Home页面点击Widget启动Panel.png)
 
 ---
 
@@ -18,13 +18,13 @@
 #if CVTE_EN_ISDB
 case UI_CLASS_ISDB:
 {
-	CPanelISDB *pPanel = new CPanelISDB;
-	
-	pPanel->Initialize(MAKE_PANEL_ID(UI_CLASS_ISDB,PAGE_ISDB_WRAPPER), 
-	NULL, m_pSkinManager, m_pTextGL, m_hMainWnd, m_entry);
-	pPanel->LinkCommander(m_pCommander);
-	pPanel->LinkStatusBar(m_pStatusBar);
-	m_listPanels.Add(pPanel,MAKE_PANEL_ID(UI_CLASS_ISDB,PAGE_ISDB_WRAPPER));
+    CPanelISDB *pPanel = new CPanelISDB;
+
+    pPanel->Initialize(MAKE_PANEL_ID(UI_CLASS_ISDB,PAGE_ISDB_WRAPPER), 
+    NULL, m_pSkinManager, m_pTextGL, m_hMainWnd, m_entry);
+    pPanel->LinkCommander(m_pCommander);
+    pPanel->LinkStatusBar(m_pStatusBar);
+    m_listPanels.Add(pPanel,MAKE_PANEL_ID(UI_CLASS_ISDB,PAGE_ISDB_WRAPPER));
 }
 break;
 #endif
@@ -38,38 +38,6 @@ case IDC_WIDGET_ISDB:
     (LPVOID)m_listWidgets.GetItemByID(idControl),TRUE);
     break;
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
