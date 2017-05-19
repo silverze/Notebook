@@ -2,9 +2,9 @@
 
 ---
 
-### 一、启动流程分析
+### 一、启动流程分析![](/assets/Home页面点击Widget启动Panel.png)
 
-
+### ![](/assets/Home页面点击Widget启动Panel.png)
 
 ---
 
